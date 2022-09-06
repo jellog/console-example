@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DataGap.Jellog.Autofac" Version="5.3.3" />
+    <PackageReference Include="DataGap.Jellog.EventBus.Kafka" Version="5.3.3" />
+    <ProjectReference Include="..\SharedModule\SharedModule.csproj" />
+  </ItemGroup>
+
+</Project>
